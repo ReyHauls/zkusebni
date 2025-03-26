@@ -1,0 +1,195 @@
+/* Obecný styl */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hlavička */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigace */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4d00;
+}
+
+nav ul li.signup a {
+    background: #ff4d00;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+nav ul li.signup a:hover {
+    background: #e64100;
+}
+
+/* Hlavní obsah */
+main {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Obecný styl */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Hlavička */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigace */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4d00;
+}
+
+nav ul li.signup a {
+    background: #ff4d00;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+nav ul li.signup a:hover {
+    background: #e64100;
+}
+
+/* Hlavní obsah */
+main {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Grid pro produkty */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Produkty */
+.product {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    display: block;
+    border: 1px solid #f0e9e9;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4d00;
+}
+
+/* Odkazy v produktech */
+.product a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
